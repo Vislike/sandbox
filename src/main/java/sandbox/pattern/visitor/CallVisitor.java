@@ -4,7 +4,7 @@ public class CallVisitor implements Visitor {
 
 	@Override
 	public void visit(Animal animal) {
-		System.out.println("No call action for: " + animal.getClass().getSimpleName());
+		System.out.println("Common call");
 	}
 
 	@Override
